@@ -1,7 +1,9 @@
 # Tokenized_Votes
 
-Hi Encode team, I'm still working on fixing the error in IntelliJ. I made some progress.  I had an issue with Github updating the original repo, so I had to delete
-and reupload files. Working on final pieces now, and then the short write up.
+Fixed Issues and Deployed to Rinkbey Network
+
+Major Challenges:
+Typescript Import Error on IntelliJ, Hardhat Error for Windows System with Recent Update and Limits to API Calls on Alchemy Free Account
 
 CastVote Script
 ![image](https://user-images.githubusercontent.com/100870737/177495637-05854106-bc57-4103-99e6-ebf5dcaedbab.png)
@@ -17,3 +19,11 @@ DeployBallot Script
 
 GetVote Script
 ![image](https://user-images.githubusercontent.com/100870737/177499323-ad8813e6-efba-4409-95e7-65a7f7ebffe0.png)
+
+
+Deploy My Token Smart Contract
+![image](https://user-images.githubusercontent.com/100870737/177508332-8a87a7bb-51f1-477e-aa4b-dc44318b8544.png)
+
+
+Deploy CustomBallot Contract
+![image](https://user-images.githubusercontent.com/100870737/177509005-017d9aa2-15cc-4835-bf78-c995c1c9ddf7.png)
