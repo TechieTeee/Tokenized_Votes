@@ -1,0 +1,27 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+.secret
+
+#Hardhat files
+cache
+artifacts
+solidity-files-cache.json
+IERC20Votes.json
+IERC20Votes.dbg.json
+CustomBallot.json
+CustomBallot.dbg.json
+MyToken.dbg.json
+MyToken.json
+solidity-files-cache.json
+3aa42539fd9f6cadcac85e17647215c9.json
+5622f9db5de83704bfb9af7ebe2320b3.json
+CustomBallot.dbg.json
+CustomBallot.json
+IERC20Votes.dbg.json
+IERC20Votes.json
+MyToken.dbg.json
+MyToken.json
+solidity-files-cache.json
