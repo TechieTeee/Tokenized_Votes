@@ -26,8 +26,13 @@ async function main() {
       ? ethers.Wallet.fromMnemonic(process.env.MNEMONIC)
       : new ethers.Wallet(PRIVATE_KEY);
   console.log(`Using address ${wallet.address}`);
+  
   // connect to rpc network
-  const provider = ethers.providers.getDefaultProvider("Ropsten");
+  // Adding additional params to avoid getting issues w/ the rate limit:
+  const provider = ethers.providers.getDefaultProvider("Ropsten", {
+    etherscan: process.env.ETHERSCAN_API_KEY,
+    infura: process.env.INFURA_API_KEY,
+  });
   const signer = wallet.connect(provider);
   //check balance
   const balanceBN = await signer.getBalance();
