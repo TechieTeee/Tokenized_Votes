@@ -1,4 +1,5 @@
 # Tokenized_Votes
+ERC-21 Smart Contract Project for Tokenized Voting Using Typescript and Hardhat
 
 Fixed Issues and Deployed to Rinkbey Network
 
